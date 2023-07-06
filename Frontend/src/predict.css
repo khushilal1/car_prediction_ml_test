@@ -1,0 +1,67 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(6, 19, 56);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+form {
+  width: 90%;
+  max-width: 900px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 9px;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  background-color: rgb(220, 222, 223);
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  background-color: rgb(7, 7, 73);
+  color: white;
+}
+
+form button:hover {
+  background-color: rgb(5, 5, 29);
+}
+
+.desc {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.predicted-data {
+  font-size: 1.3rem;
+  color: rgb(109, 232, 109);
+}
+
+ form .clear {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-left: 5px;
+  border: 1px solid black;
+}
+form .clear:hover {
+  background-color: rgb(233, 231, 231);
+}
